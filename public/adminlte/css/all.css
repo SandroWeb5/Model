@@ -1,0 +1,104 @@
+@font-face {
+  font-family: roboto;
+  src: url(../../font/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Source Sans Pro;
+  src: url(../../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+@font-face {
+  font-family: Nunito;
+  src: url(../../font/nunito/Nunito-Regular.ttf);
+}
+body{ font-family: 'Nunito', Roboto, Arial !important;
+background: #ffffff; 
+background: -webkit-linear-gradient(#ffffff 0%, #dcdcdc 66%);
+background': -o-linear-gradient(#ffffff 0%, #dcdcdc 66%);
+background: linear-gradient(#ffffff 0%, #dcdcdc 66%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcdcdc',GradientType=0 ); 
+}
+.blue{ color: #3490dc;}.indigo{ color: #6574cd; }.purple{ color: #9561e2; }.pink{ color: #f66d9b; }
+.red{ color: #e3342f; }.orange{ color: #f6993f; }.yellow{ color: #ffed4a; }.green{ color: #38c172;}
+.teal{ color: #4dc0b5; }.cyan{ color: #6cb2eb; }
+.cor1{ color: #285275 !important; }.cor2{ color: #0877A9 !important; }.cor3{ color: #0395B3 !important; }.cor4{ color: #00B8BF !important; }.cor5{ color: #0FF9FF !important; }
+.bg1{ background: #285275 !important; }.bg2{ background: #0877A9 !important; }.bg3{ background: #0395B3 !important; }.bg4{ background: #00B8BF !important; }.bg5{ background: #0FF9FF !important; }
+.card-header { padding: 0.50rem 1.25rem 0 1.25rem !important;}
+.IconX{font-size: 18px; margin: 0 3px 0 4px;}
+.table th, .table td {padding: 0.40rem 0.75rem;}
+.table-sm td, .table-sm th {padding: 4px 0 4px 15px !important;font-size: 15px !important;}
+.table-sm th {background: #f2f3f5;}
+/* Nav e Sidebar */
+.content-wrapper {background: transparent !important;}
+.user-panel img { width: 46px !important;}
+.sidebar { padding-left: 0.3rem !important; padding-right: 0.3rem !important;}
+.info a{font-size: 17px;}
+.info a small{font-size: 13px !important; margin-top: -4px !important; display: -webkit-box; color: #6c757d;}
+.brand-image { float: none !important; margin-left: 20px !important; margin-right: 0 !important;max-height: 52px !important;}
+.user-panel .image { padding-left: 0.6rem !important;}
+.LogoMobi{display: none;}
+.logo-image {max-height: 34px; width: auto;margin: -2px 0 0 0;}
+a.nav-link.BaR {font-size: 25px;margin: -10px 8px 0 3px;}
+a.nav-link.BaR1 {font-size: 25px;margin: -10px 0 0 3px;}
+.brand-link {padding: 6px 15px 0 0 !important;margin: 0 0 8px 0 !important;font-size: 24px !important;}
+.login-logo, .register-logo {margin-bottom: -24px !important;z-index: 999999; position: relative;text-align: center;}
+.login-logo a, .register-logo a { margin-left: -10px; position: relative; top: 17px;}
+.info .router-link-exact-active {background-color: transparent !important;}
+.TT .router-link-exact-active {background-color: transparent !important;color: #ccc !important;}
+.router-link-exact-active{background-color: #6c757d;color: #ffffff !important;}
+span.brand-text.font-weight-light.text-center { margin-left: -6px;}
+.main-sidebar {overflow-x: hidden !important;}
+.assinatura {top: -25px !important;position: relative;text-align: center;}
+@media (max-width: 991.98px){.LogoMobi{display: inline;}}
+.tb .card-header, .modal-header, .bgs{background: #a1a9b1 !important;border:1px solid #a1a9b1 !important;}
+.tb .card-body{padding: 0.60rem !important;border-left: 4px solid #a1a9b1 !important;border-right: 4px solid #a1a9b1 !important;border-bottom: none;}
+.tb .card-footer{background: #a1a9b1 !important;padding: 10px 10px 0 10px !important; color: white !important;border-radius: 0px 6px !important;text-align: right;}
+.tb .card{border-radius: 20px !important;}
+.h4, h4 { font-size: 1.5rem !important; text-shadow: 1px 1px 3px #000 !important;}
+h4 small{font-size: 13px !important;text-shadow: none;}
+.pagination {float: right !important; margin-bottom: 8px !important;font-size: 13px;}
+.page-link {padding:2px 8px !important;background-color: #adb5bd !important;font-weight: 800 !important;}
+.page-item.active .page-link {background-color: #285275 !important;border-color: #285275 !important;}
+table#Base {font-size: 14px !important;}
+.BtN a i {font-size: 17px !important;}
+.BtN1 { color: #fff !important;background: #ccc !important;}
+.BtN1 th a:hover{color:#000 !important;}
+.brand-link {padding: 6px 15px 0 0 !important;margin: 0 0 8px 0 !important;font-size: 24px !important;}
+a.btA {font-size: 20px !important; margin: -13px 3px -2px 3px !important; display: inline-block !important;}
+input[type='search'] { width: 260px !important;}
+.sm{margin: 5px 0 5px 0 !important;}
+.sm label {font-size: 14px;font-weight: normal !important;padding: 0 0 0 0 !important;margin: 0 0 0 0 !important;}
+.sm input{padding: 5px !important;}
+.modal-footer { padding: 1rem 1rem 1rem 1.5rem !important;}
+.modal-header { padding: 10px 18px !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+.modal-content{border-radius: 10px !important;}
+div#dt_info, div#dt_length label, div#dt_filter label {font-size: 14px; color: #285275;}
+label {color: #0395b3 !important;}
+ul.BoX { margin: 0; padding: 0;}
+ul.BoX li {list-style: none;}
+ul.BoX li .card { width: 48%;float: left; margin: 1%;}
+ul.AvisoS { margin: 0; padding: 0;}
+.AvisoS li{list-style: none;}
+.AvisoS p{margin-bottom: 0;padding-right: 20px;}
+.AvisoS a { float: right; top: -27px; position: relative; padding: 10px; background: #eff1f1;}
+.CardS {max-height: 476px; padding-bottom: 18px;}
+.CardS .card-body{overflow: auto;}
+.AvisoS span {text-align: right;
+    display: block;
+    color: #17a2b8;
+    font-size: 12px;
+    margin-top: -9px;
+    margin-right: 35px;}
+.AvisOSS{ text-align: right; display: block;color: #17a2b8; font-size: 14px; margin-top: -10px;}
+.BOX { display: block; text-align: center; margin: 50px;}
+
+.submenu .breadcrumb {background-color: #f5f5f500; padding: 0 0 0 4px; margin: -12px 0 5px 0;}
+.submenu .breadcrumb li{font-size: 12px;color: #a1a9b1;}
+.submenu .breadcrumb li a{color: #00b8bf;}
+
+.DD{height: 100%;}
+.DD h1 small{color: #17a2b8;margin: -3px 0 0 26px;display: block;}
+.DD li.small{ margin: -10px 0 0 0;font-size: 17px; color: #17a2b8;}
+.DD .card-body.pt-0{height: 238px;}

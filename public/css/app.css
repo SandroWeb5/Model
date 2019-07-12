@@ -1,0 +1,28 @@
+@import 'all.css';
+@import 'media.css';
+/**/
+header { display: inline-block; position: absolute; width: 100%; height: 100%; }
+main { display: inline-block; position: absolute; width: 100%; min-height: 100%; top: 100%; }
+section { display: inline-block; width: 100%; min-height: 450px; }
+footer { display: inline-block; width: 100%; position: relative; top: 10px; }
+h1 { color: var(--Cor1); text-align: center; }
+h1 small { font-size: 18px; display: block; font-family: Roboto; color: var(--Cor3); margin-top: -6px; }
+/*Nav*/
+nav { z-index: 99999; }
+.navbar { box-shadow: none !important; }
+li.nav-item a { font-family: Roboto; padding: 8px 15px !important; color: #FFF; font-size: 20px; text-shadow: 2px 2px 3px #000; }
+li.nav-item:hover { background: #ffffff36; }
+/*Carrossel*/
+div#Banner { height: 85% !important; position: absolute; top: 0;width: 100%; }
+.ImgBanner { width: 100%; height: 100%; object-fit:cover; object-position: center top; }
+.carousel-inner, .carousel-item, .view { height: 100% !important; }
+.carousel-caption { text-align: left !important; text-shadow: 1px 1px 1px #000 !important; } 
+.carousel-indicators { justify-content: left !important; }
+h3.h2-responsive { font-size: 25px; text-shadow: 2px 2px 3px #000; }
+img.EquipamentoS { z-index: 999; position: absolute; bottom: 10px; right: 20px; }
+.endereco { position: absolute; bottom: 0; left: 15px; font-size: 15px; font-family: Roboto; }
+/*Top Bottom*/
+.BtnX{ background: var(--Cor1); padding: 15px 20px; color:#fff;}
+.BtnX:hover { background: white; color: var(--Cor1); }
+
+

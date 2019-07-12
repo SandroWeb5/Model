@@ -1,0 +1,23 @@
+/*CSS Media*/
+@media (max-width: 1440px) {
+	.navbar-brand img.Logo1, .EquipamentoS {zoom:70%;}
+	li.nav-item a { padding: 6px 11px !important;font-size: 18px;}
+}
+@media (max-width: 1180px) {
+	.carousel-caption h3{font-size: 18px;}
+}
+@media (max-width: 990px) {
+	.AnimeA{-webkit-transition: none !important;-moz-transition: none !important;-ms-transition: none !important;-o-transition: none !important;transition: none !important;}
+    .AnimeA:hover{-webkit-transform:none !important;-moz-transform: none !important;-ms-transform: none !important;-o-transform: none !important;transform: none !important;}
+ 	.navbar-nav{background: #0877A9;}
+	.EquipamentoS {display: none;}
+	.bgSobre, .bg_serv{background: none !important;}
+}
+@media (max-width: 760px) {
+	.endereco{text-align: center;display: block;display: inline-block !important; width: 95%;}
+}
+
+@media (max-width: 680px) {
+	.navbar-brand img.Logo1 {zoom:50%;}
+	div#Banner { height: 100% !important;}
+}
